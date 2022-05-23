@@ -1887,6 +1887,7 @@ text-decoration:none;
     
     .menu{
         display: block;
+        margin: 0px 10px;
     }
 
     .hd-nav{
@@ -1911,7 +1912,7 @@ text-decoration:none;
     width: 100%;
     padding: 20px 20px;
     animation: showed 2s ease-in-out;
-    border-bottom: 1px solid #004aad;
+
     
 
     }
@@ -1940,7 +1941,7 @@ text-decoration:none;
     }
     .disp01 .user_name{
         font-size: 24px;
-        margin: 20px 0px;
+        margin: 10px 0px;
 
     }
 
@@ -1998,24 +1999,25 @@ text-decoration:none;
     }
     .reff{
         flex-wrap: wrap;
-
+        justify-content: center;
+        align-items: center;
 
     }
 
 
     .reff p {
-        padding: 10px;
+        padding: 0px;
         font-size: 14px;
-        padding:  10px 0px;
-        margin: 10px ;
+        padding:  10px 10px;
+        margin: 10px 0px;
     }
     .reff button{
         padding:10px;
-        border-radius: 10px;
+        border-radius:0px 10px 10px 0px;
     }
 
     .d-graphs{
-        /* flex-wrap: wrap;? */
+        flex-wrap: wrap;
         justify-content: center;
     }
     .gains{
