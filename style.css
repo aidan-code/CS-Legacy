@@ -22,12 +22,14 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* border: 1px solid black; */
   padding: 15px 50px;
 
 }
 .logi img{
     height:50px;
-
+    /* border: 1px solid black; */
+    
 }
 
 .nav-sp{
@@ -1296,7 +1298,7 @@ justify-content: center;
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
     /* align-items: center; */
     /* margin: 0px 10px; */
 }
@@ -2390,7 +2392,7 @@ justify-content: center;
 /* THE END OF THE SETUP/SIGNUP/REGISTER/LOGIN/DASHBOARDPAGES */
 
 /* FAQ MEDIA QUERY FOR SMALL SCREEN SIZES */
-@media screen and (max-width:499px) {
+@media screen and (max-width:599px) {
 
   .frequently{
     height: 350px ;
@@ -2410,7 +2412,7 @@ justify-content: center;
   }
 
   .lxp_cs{
-    padding:30px 20px  ;
+    padding:30px 10px  ;
 
 
   }
@@ -2433,6 +2435,7 @@ justify-content: center;
   .arrow{
     display: block;
     cursor: pointer;
+    transition:1s ;
   }
 
  .show-text .answers {
