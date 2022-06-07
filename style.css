@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-::-webkit-scrollbar{
-  /* display: none; */
-}
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -22,7 +19,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid black; */
+  /* border-bottom: 1px solid #004AAD; */
   padding: 15px 50px;
   position: fixed;
   top: 0;
@@ -45,7 +42,7 @@ body{
 
 .navbar-cont{
   /* border: 1px solid black; */
-  margin: 100px 70px;
+  margin: 200px 70px;
 
 }
 
@@ -1027,7 +1024,7 @@ text-decoration:none;
     width: 100%;
     margin:0px  40px;
 }
-::-webkit-scrollbar{
+.table-disp::-webkit-scrollbar{
   width: 10px;
  
  }
@@ -1223,7 +1220,7 @@ text-decoration:none;
 
 }
 
-::-webkit-scrollbar{
+.table-disp2::-webkit-scrollbar{
  width: 10px;
 
 }
@@ -1289,7 +1286,7 @@ text-decoration:none;
   width: 50%;
  
 }
-:-webkit-scrollbar{
+.nm-spcs::-webkit-scrollbar{
   width: 10px;
  
  }
