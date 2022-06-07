@@ -24,7 +24,9 @@ body{
   align-items: center;
   /* border: 1px solid black; */
   padding: 15px 50px;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  width: 100%;
 
 }
 .logi img{
@@ -744,7 +746,7 @@ align-items: center;
     }
     .logo-lg{
         /* border: 1px solid black; */
-    margin: 30px;
+    margin: 20px 50px;
     height: 50px;
     }
     .poss{
@@ -757,12 +759,14 @@ align-items: center;
     .login-1{
         /* border: 1px solid black; */
         display: flex;
-        margin: 100px;
+        margin: 150PX 100px;
+
 
     }
     .log_case{
         display: flex;
         flex-direction: column;
+        /* border: 1PX SOLID red; */
     }
     .log-ctnt{
         margin: 15px;
@@ -1213,9 +1217,9 @@ text-decoration:none;
 }
 .table-disp2{
   width: 800px;
-  height:400px;
+  /* height:400px; */
   /* border: 1px solid black; */
-  overflow-y: scroll;
+
 
 }
 
@@ -1350,7 +1354,9 @@ text-decoration:none;
 
 
 .frequently{
-height: 400px;
+  position: relative;
+  top:80px;
+height: 600px;
 background: #004AAD;
 display: flex;
 align-items: center;
