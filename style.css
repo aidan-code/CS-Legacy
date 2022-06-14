@@ -19,11 +19,14 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color:white ;
   /* border-bottom: 1px solid #004AAD; */
+  box-shadow: 0px 5px 15px #4343434f;
   padding: 15px 50px;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 
 }
 .logi img{
@@ -112,7 +115,7 @@ width: 70%;
 .img-group img{
     height: 600PX;
     width: 100%;
-    z-index: 1000;
+    /* z-index: 1000; */
 
     /* margin-left: -40px; */
 }
@@ -711,6 +714,7 @@ border: 1px solid #004AAD45;
 background-color: #F5FAFF;
 display: flex;
 align-items: center;
+justify-content: space-between;
 
 
 }
@@ -718,7 +722,7 @@ align-items: center;
 .pass-case input[type = password]{
  border: none;
  outline: none;
- width: 300px;
+ width: 250px;
  font-size: 15px;
  background-color: #F5FAFF;
  /* color: #004aad; */
@@ -726,6 +730,40 @@ align-items: center;
 
 
 }
+
+.pass-case input[type = text]{
+  border: none;
+  outline: none;
+  width: 250px;
+  font-size: 15px;
+  background-color: #F5FAFF;
+  /* color: #004aad; */
+  
+}
+
+.v-btn{
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.viewit{
+  display: block;
+
+}
+
+.viewit2{
+  display: none;
+}
+
+.chng{
+  display: none;
+}
+
+
+.chngs{
+  display: block;
+}
+
 
 
 /* ____________________________ DASHBOARD LOGIN PAGE________________ */
@@ -774,13 +812,13 @@ align-items: center;
     .mail-log{
     /* border: 1px solid black; */
     padding: 15px;
-    width: 400px;
+    width: 200px;
     border-radius: 10px;
     margin: 15px;
     border: 1px solid #004AAD45;
     background-color: #F5FAFF;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     }
     .pass-log{
     /* border: 1px solid black; */
@@ -797,7 +835,7 @@ align-items: center;
     .mail-log input[type= email]{
     border: none;
     outline: none;
-    width: 350px;
+    width: 250px;
     font-size: 15px;
     background-color: #F5FAFF;
     /* color: #004aad; */
@@ -811,6 +849,15 @@ align-items: center;
     font-size: 15px;
     background-color: #F5FAFF;
     /* border: 1px solid black; */
+    }
+
+    .pass-log input[type = text]{
+      border: none;
+      outline: none;
+      width: 100%;
+      font-size: 15px;
+      background-color: #F5FAFF;
+      /* border: 1px solid black; */
     }
     .forget{
     /* border: 1px solid black; */
@@ -2190,7 +2237,7 @@ justify-content: center;
         align-items: center;
     }
    .mail-log{
-    width: 90%;
+    width: 100%;
     margin: 15px 0px;
    }
 
