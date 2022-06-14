@@ -21,7 +21,7 @@ questions.forEach(function(question) {
 const vewit =  document.querySelector(".v-btn");
 const eyeOne = document.querySelector(".viewit");
 const eyeTwo = document.querySelector(".viewit2");
-const inp = document.querySelector(".views")
+const inp = document.querySelector(".views");
 
 // console.log(vewit, eyeOne, eyeTwo)
 
@@ -41,19 +41,21 @@ const passCase = document.querySelectorAll(".pass-case")
 console.log(passCase)
 
 passCase.forEach(function(pass){
-  const vewit =  pass.querySelector(".v-btn");
+  const vewit = pass.querySelector(".v-btn");
 
   vewit.addEventListener('click', () => {
+
       if(inp.type === 'password'){
-        inp.type = "text"
-      }
-      else{
-          inp.type = "password"
-      }
-      eyeOne.classList.toggle("chng");
-      eyeTwo.classList.toggle("chngs");
-    
+          inp.type = "text"
+        }
+        else{
+            inp.type = "password"
+        }
+        eyeOne.classList.toggle("chng");
+        eyeTwo.classList.toggle("chngs");
+      
     })
+     
 });
 
 
