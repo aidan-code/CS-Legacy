@@ -61,7 +61,7 @@ passCase.forEach(function(pass){
 
 
 // javascript for the navigation bar for the Media view
-
+        
 const bars = document.querySelector('.menu');
 const navUl = document.querySelector('.hd-nav');
 // the bars
